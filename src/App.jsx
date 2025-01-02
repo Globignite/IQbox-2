@@ -1,4 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "aos/dist/aos.css"; // AOS styles
+import "bootstrap/dist/css/bootstrap.min.css"; // Bootstrap CSS
+import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Bootstrap JS
+import AOS from "aos";
+import { useEffect } from "react";
 
 import Home from "./pages/Home/Home";
 // import About from "./pages/About";
@@ -6,6 +11,10 @@ import Home from "./pages/Home/Home";
 // import NotFound from "./pages/NotFound";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       <Router>
