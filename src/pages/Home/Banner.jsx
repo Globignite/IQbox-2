@@ -1,5 +1,4 @@
-import React from "react";
-
+ 
 function Banner() {
   return (
     <div className="home-banner-section overflow-hidden position-relative">

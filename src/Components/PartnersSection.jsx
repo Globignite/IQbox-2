@@ -6,7 +6,7 @@ function PartnersSection() {
           <div className="col-12">
             <h6 data-aos="fade-up">Partners</h6>
             <h2 className="text-center" data-aos="fade-up-right">
-              We're Working With
+              We&apos;re Working With
             </h2>
           </div>
         </div>

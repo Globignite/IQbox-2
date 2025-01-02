@@ -1,5 +1,3 @@
-import React from "react";
-
 function WhoWeAre() {
   return (
     <section className="who-we-are-section overflow-hidden">
