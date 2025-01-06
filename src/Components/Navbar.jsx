@@ -51,7 +51,7 @@ const Navbar = () => {
                     className="nav-link text-decoration-none navbar-text-color"
                     to="/about"
                   >
-                    About us
+                    About
                   </Link>
                 </li>
 
