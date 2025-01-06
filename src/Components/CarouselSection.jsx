@@ -1,5 +1,3 @@
-
-
 function CarouselSection() {
   return (
     <section className="carousel-section overflow-hidden">
@@ -73,12 +71,13 @@ function CarouselSection() {
                       </li>
                     </ul>
                     <h4>
-                      “Quis autem vel eum iure reprehenderit aui in ea voluptate
-                      velit esse quam nihil molestiae consequatur, vel illum qui
-                      dolorem eum fugiat voluptas pariatur.”
+                      “IQbox has been an invaluable partner in safeguarding our
+                      data. Their tailored cybersecurity solutions provided us
+                      with peace of mind, knowing our network is continuously
+                      monitored and protected from emerging threats.”
                     </h4>
                     <div className="carousel-text">
-                      <h6>Kevin Andrew</h6>
+                      <h6>Jennifer Miller</h6>
                       <p>Happy Client</p>
                     </div>
                   </div>
@@ -104,12 +103,14 @@ function CarouselSection() {
                       </li>
                     </ul>
                     <h4>
-                      “Quis autem vel eum iure reprehenderit aui in ea voluptate
-                      velit esse quam nihil molestiae consequatur, vel illum qui
-                      dolorem eum fugiat voluptas pariatur.”
+                      “With IQbox, we now have a robust cybersecurity
+                      infrastructure that gives us confidence. Their expert team
+                      helped us stay one step ahead of potential threats,
+                      ensuring our business runs securely without
+                      interruptions.”
                     </h4>
                     <div className="carousel-text">
-                      <h6>Kevin Andrew</h6>
+                      <h6>David Chen</h6>
                       <p>Happy Client</p>
                     </div>
                   </div>
@@ -135,12 +136,13 @@ function CarouselSection() {
                       </li>
                     </ul>
                     <h4>
-                      “Quis autem vel eum iure reprehenderit aui in ea voluptate
-                      velit esse quam nihil molestiae consequatur, vel illum qui
-                      dolorem eum fugiat voluptas pariatur.”
+                      “IQbox’s proactive approach to cybersecurity is unmatched.
+                      Their solutions have helped us prevent cyber threats
+                      before they even reach us, making them a key part of our
+                      operational success.”
                     </h4>
                     <div className="carousel-text">
-                      <h6>Kevin Andrew</h6>
+                      <h6>Rachel Patel</h6>
                       <p>Happy Client</p>
                     </div>
                   </div>
