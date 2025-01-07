@@ -1,5 +1,3 @@
-
-
 function Footer() {
   return (
     <div className="footer-section">
@@ -10,15 +8,18 @@ function Footer() {
               <a href="index.html" className="text-decoration-none">
                 <figure>
                   <img
-                    src="./assets/images/footer-logo.png"
+                    src="./assets/images/logo.png"
                     alt
-                    className="img-fluid"
+                    className="img-fluid w-50"
                   />
                 </figure>
               </a>
               <p className="footer-section-text">
-                Deleniti aeue corrupti quos dolores et quas molestias excepturi
-                sint occaecati rupiditate non provident, similique sunt...
+                We are experts in cybersecurity solutions, digital forensics,
+                cybercrime investigation, security audits, compliance
+                management, VAPT, cloud, and network infrastructure setup. We
+                have customized training for cybersecurity based on customer
+                needs.
               </p>
               <ul className="list-unstyled">
                 <li className="list-item">
@@ -89,7 +90,7 @@ function Footer() {
             <div className="footer-list footer-link contact-list">
               <div className="icon-list-box1">
                 <ul className="list-unstyled contact-us-ul">
-                  <li className="list-item">
+                  {/* <li className="list-item">
                     <a
                       href="tel:+4733378901"
                       className="text-decoration-none footer-link-auto"
@@ -97,19 +98,20 @@ function Footer() {
                       +61 3 8376 6284
                     </a>
                     <i className="fa fa-phone fa-icon footer-location3" />
-                  </li>
+                  </li> */}
                   <li className="list-item">
                     <a
-                      href="mailto:webmaster@example.com"
+                      href="mailto:info@iqbox.com"
                       className="text-decoration-none footer-link-auto"
                     >
-                      Info@whizcyber.om
+                      info@iqbox.com.au
                     </a>
                     <i className="fa fa-envelope fa-icon footer-location2" />
                   </li>
                   <li className="list-item">
                     <a className="text-decoration-none footer-link-auto">
-                      21 King Street Melbourne,3000, Australia
+                      2 28 gum nut close, North Kellyville, NSW-2155, Sydney,
+                      Australia
                     </a>
                     <i className="fa-solid fa-location-dot footer-location" />
                   </li>
@@ -145,7 +147,7 @@ function Footer() {
         <div className="row">
           <div className="footer-bar-content w-100">
             <p className="text-size-16 mb-0">
-              Whizcyber copyright © 2022. All Rights Reserved.
+              IQBOX Copyright © 2025. All Rights Reserved.
             </p>
           </div>
         </div>

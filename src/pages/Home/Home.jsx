@@ -27,9 +27,9 @@ function Home() {
       <OurServicesSection />
       <AboutUsSection />
       <PartnersSection />
-      <WhoWeAre />
-      <PricingPlanSection />
-      <OurTeams />
+      {/* <WhoWeAre /> */}
+      {/* <PricingPlanSection /> */}
+      {/* <OurTeams /> */}
       <CarouselSection />
       <FormSection />
       <Footer />

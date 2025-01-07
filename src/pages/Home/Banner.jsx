@@ -1,4 +1,3 @@
- 
 function Banner() {
   return (
     <div className="home-banner-section overflow-hidden position-relative">
@@ -31,19 +30,19 @@ function Banner() {
                 id="myContentDIV"
               >
                 <h1>
-                  We Provide <span className="h1-text">Cyber Solutions</span>{" "}
-                  For Your Security
+                  <span className="h1-text">Secure. Scale. Transform.</span>{" "}
                 </h1>
                 <p className="banner-paragraph">
-                  Quis autem vel eum iure reprehenderit qui in ea voluptate
-                  velit esse ruam nihil molestiae.
+                  IQBOX combines Cybersecurity, Salesforce Consulting, and IT
+                  Transformation to help businesses protect their data, engage
+                  customers, and drive operational excellence.
                 </p>
                 <div className="banner-btn discover-btn-banner">
                   <a href="about.html" className="text-decoration-none">
                     Get Started
                   </a>
                   <a
-                    href="about.html"
+                    href="contact.html"
                     className="text-decoration-none play-button"
                   >
                     Contact us

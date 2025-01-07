@@ -1,5 +1,3 @@
-
-
 function OurServices() {
   return (
     <section className="our-services-section">
@@ -24,13 +22,12 @@ function OurServices() {
                   </figure>
                 </div>
                 <div className="services-box">
-                  <h5>Computer Security</h5>
+                  <h5>Cybersecurity Solutions</h5>
                   <p className="security-services-p">
-                    Quis autem vel eum iure repre rui in ea voluptate velit esse
-                    ua nihil molestiae.
+                    Cybersecurity Solutions to safeguard your critical systems.
                   </p>
-                  <a href="about.html" className="text-decoration-none">
-                    Read more
+                  <a href="services.html" className="text-decoration-none">
+                    Discover Our Expertise
                   </a>
                 </div>
               </div>
@@ -43,13 +40,12 @@ function OurServices() {
                   </figure>
                 </div>
                 <div className="services-box">
-                  <h5>Folder Security</h5>
+                  <h5>Salesforce Consulting</h5>
                   <p className="security-services-p">
-                    Ruis autem vel eum iure repre rui in ea voluptate velit esse
-                    ua nihil molestiae.
+                    Salesforce Consulting for smarter, customer-centric growth.
                   </p>
                   <a href="about.html" className="text-decoration-none">
-                    Read more
+                    Discover Our Expertise
                   </a>
                 </div>
               </div>
@@ -62,89 +58,13 @@ function OurServices() {
                   </figure>
                 </div>
                 <div className="services-box">
-                  <h5>Finger Print Security</h5>
+                  <h5>IT Services & Consulting</h5>
                   <p className="security-services-p">
-                    Guis autem vel eum iure repre rui in ea voluptate velit esse
-                    ua nihil molestiae.
+                    IT Services & Consulting to streamline and optimize your IT
+                    infrastructure.
                   </p>
                   <a href="about.html" className="text-decoration-none">
-                    Read more
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="services-content">
-                <div className="icons-rounded-box">
-                  <figure className="mb-0">
-                    <img src="./assets/images/services-img1.png" alt />
-                  </figure>
-                </div>
-                <div className="services-box">
-                  <h5>Finger Print Security</h5>
-                  <p className="security-services-p">
-                    Guis autem vel eum iure repre rui in ea voluptate velit esse
-                    ua nihil molestiae.
-                  </p>
-                  <a href="about.html" className="text-decoration-none">
-                    Read more
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="services-content">
-                <div className="icons-rounded-box">
-                  <figure className="mb-0">
-                    <img src="./assets/images/services-img2.png" alt />
-                  </figure>
-                </div>
-                <div className="services-box">
-                  <h5>Finger Print Security</h5>
-                  <p className="security-services-p">
-                    Guis autem vel eum iure repre rui in ea voluptate velit esse
-                    ua nihil molestiae.
-                  </p>
-                  <a href="about.html" className="text-decoration-none">
-                    Read more
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="services-content">
-                <div className="icons-rounded-box">
-                  <figure className="mb-0">
-                    <img src="./assets/images/services-img3.png" alt />
-                  </figure>
-                </div>
-                <div className="services-box">
-                  <h5>Finger Print Security</h5>
-                  <p className="security-services-p">
-                    Guis autem vel eum iure repre rui in ea voluptate velit esse
-                    ua nihil molestiae.
-                  </p>
-                  <a href="about.html" className="text-decoration-none">
-                    Read more
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="services-content">
-                <div className="icons-rounded-box">
-                  <figure className="mb-0">
-                    <img src="./assets/images/services-img1.png" alt />
-                  </figure>
-                </div>
-                <div className="services-box">
-                  <h5>Finger Print Security</h5>
-                  <p className="security-services-p">
-                    Guis autem vel eum iure repre rui in ea voluptate velit esse
-                    ua nihil molestiae.
-                  </p>
-                  <a href="about.html" className="text-decoration-none">
-                    Read more
+                    Discover Our Expertise
                   </a>
                 </div>
               </div>
