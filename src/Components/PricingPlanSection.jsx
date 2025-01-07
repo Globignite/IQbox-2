@@ -1,5 +1,3 @@
-
-
 function PricingPlanSection() {
   return (
     <section className="pricing-plan-section overflow-hidden">

@@ -1,16 +1,18 @@
-import Hero from "./Hero";
+import Navbar from "../../Components/Navbar";
+import Banner from "./Banner";
 import AboutUsSection from "../../Components/AboutUsSection";
+import WhyChooseusSection from "../../Components/WhyChooseUsSection";
+import CtaSection from "../../Components/CtaSection";
 import CarouselSection from "../../Components/CarouselSection";
 import Footer from "../../Components/Footer";
 import FormSection from "../../Components/FormSection";
-import Navbar from "../../Components/Navbar";
 import OurServicesSection from "../../Components/OurServicesSection";
 import OurTeams from "../../Components/OurTeams";
 import PartnersSection from "../../Components/PartnersSection";
 import PricingPlanSection from "../../Components/PricingPlanSection";
 import WhoWeAre from "../../Components/WhoWeAre";
 
-function Home() {
+function About() {
   return (
     <>
       <div className="home-header-section">
@@ -22,11 +24,13 @@ function Home() {
           />
         </figure>
         <Navbar />
-        <Hero />
+        <Banner />
       </div>
-      <OurServicesSection />
       <AboutUsSection />
+      <WhyChooseusSection />
       <PartnersSection />
+      <CtaSection />
+      {/* <OurServicesSection /> */}
       {/* <WhoWeAre /> */}
       {/* <PricingPlanSection /> */}
       {/* <OurTeams /> */}
@@ -37,4 +41,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;

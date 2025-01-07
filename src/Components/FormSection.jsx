@@ -1,5 +1,3 @@
-
-
 function FormSection() {
   return (
     <section className="contact-us-form">
@@ -13,12 +11,15 @@ function FormSection() {
       <div className="container text-center">
         <div className="row">
           <div className="col-12">
-            <h6 className="autorix-text text-center">Get Started Now</h6>
+            <h6 className="autorix-text text-center">
+              Get In Touch With IQBOX
+            </h6>
             <h2
               className="text-center aos-init aos-animate"
               data-aos="fade-left"
             >
-              Send us a Message
+              "We’re ready to help you secure, scale, and transform your
+              business. Connect with our team today."
             </h2>
           </div>
         </div>
@@ -30,7 +31,7 @@ function FormSection() {
                   <input
                     type="text"
                     name="name"
-                    className="form-control input-fill"
+                    className="form-control input-fill bg-white"
                     placeholder="Name"
                   />
                 </div>
@@ -40,7 +41,7 @@ function FormSection() {
                   <input
                     type="text"
                     name="phone"
-                    className="form-control input-fill"
+                    className="form-control input-fill bg-white"
                     placeholder="Phone"
                   />
                 </div>
@@ -50,7 +51,7 @@ function FormSection() {
                   <input
                     type="tel"
                     name="email"
-                    className="form-control input-fill"
+                    className="form-control input-fill bg-white"
                     placeholder="Email"
                   />
                 </div>
@@ -63,7 +64,7 @@ function FormSection() {
                     name="comments"
                     rows={3}
                     placeholder="Message"
-                    className="form-control border-none"
+                    className="form-control border-none bg-white"
                     defaultValue={""}
                   />
                 </div>

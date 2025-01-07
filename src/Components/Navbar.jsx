@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -8,15 +7,15 @@ const Navbar = () => {
         <div className="container-fluid">
           <nav className="navbar navbar-expand-lg navbar-light p-0">
             {/* Logo */}
-            <Link className="navbar-brand pt-0" to="/">
+            <Link className="navbar-brand mr-0 pt-0" to="/">
               <img
-                src="./assets/images/whiz-cyber-logo.png"
+                src="./assets/images/logo.png"
                 alt="Logo"
-                className="img-fluid diverge-logo"
+                className="img-fluid diverge-logo w-25"
               />
             </Link>
 
-            {/* Mobile Toggle Button */} 
+            {/* Mobile Toggle Button */}
             <button
               className="navbar-toggler collapsed"
               type="button"
@@ -37,7 +36,7 @@ const Navbar = () => {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav">
-                <li className="nav-item active">
+                <li className="nav-item ml-0">
                   <Link
                     className="nav-link text-decoration-none navbar-text-color home-margin-top"
                     to="/"
@@ -64,8 +63,26 @@ const Navbar = () => {
                   </Link>
                 </li>
 
+                <li className="nav-item">
+                  <Link
+                    className="nav-link text-decoration-none navbar-text-color"
+                    to="/ourteam"
+                  >
+                    Our Team
+                  </Link>
+                </li>
+
+                <li className="nav-item">
+                  <Link
+                    className="nav-link text-decoration-none navbar-text-color"
+                    to="/blog"
+                  >
+                    Blog
+                  </Link>
+                </li>
+
                 {/* Dropdown: Pages */}
-                <li className="nav-item dropdown redlight-dropdown">
+                {/* <li className="nav-item dropdown redlight-dropdown">
                   <a
                     className="nav-link dropdown-toggle"
                     href="#"
@@ -96,10 +113,10 @@ const Navbar = () => {
                       </li>
                     </ul>
                   </div>
-                </li>
+                </li> */}
 
                 {/* Dropdown: Blog */}
-                <li className="nav-item dropdown redlight-dropdown blogs-li">
+                {/* <li className="nav-item dropdown redlight-dropdown blogs-li">
                   <a
                     className="nav-link dropdown-toggle"
                     href="#"
@@ -179,7 +196,7 @@ const Navbar = () => {
                       </li>
                     </ul>
                   </div>
-                </li>
+                </li> */}
               </ul>
 
               {/* Contact Button */}
