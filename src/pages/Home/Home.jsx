@@ -1,14 +1,12 @@
+import Navbar from "../../includes/Navbar";
+import Footer from "../../includes/Footer";
 import Hero from "./Hero";
 import AboutUsSection from "../../Components/AboutUsSection";
 import CarouselSection from "../../Components/CarouselSection";
-import Footer from "../../Components/Footer";
 import FormSection from "../../Components/FormSection";
-import Navbar from "../../Components/Navbar";
 import OurServicesSection from "../../Components/OurServicesSection";
-import OurTeams from "../../Components/OurTeams";
 import PartnersSection from "../../Components/PartnersSection";
-import PricingPlanSection from "../../Components/PricingPlanSection";
-import WhoWeAre from "../../Components/WhoWeAre";
+
 
 function Home() {
   return (
@@ -27,9 +25,6 @@ function Home() {
       <OurServicesSection />
       <AboutUsSection />
       <PartnersSection />
-      {/* <WhoWeAre /> */}
-      {/* <PricingPlanSection /> */}
-      {/* <OurTeams /> */}
       <CarouselSection />
       <FormSection />
       <Footer />

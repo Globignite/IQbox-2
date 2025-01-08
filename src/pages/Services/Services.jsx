@@ -1,10 +1,12 @@
 import Navbar from "../../includes/Navbar";
 import Footer from "../../includes/Footer";
 import Banner from "./Banner";
-import ContactCardSection from "../../Components/ContactCardSection";
+import OurServicesSection from "../../Components/OurServicesSection";
+import WhatWeDo from "../../Components/WhatWeDo";
+import CarouselSection from "../../Components/CarouselSection";
 import FormSection from "../../Components/FormSection";
 
-function Contact() {
+function Services() {
   return (
     <>
       <div className="home-header-section">
@@ -18,11 +20,13 @@ function Contact() {
         <Navbar />
         <Banner />
       </div>
-      <ContactCardSection />
+      <OurServicesSection />
+      <WhatWeDo />
+      <CarouselSection />
       <FormSection />
       <Footer />
     </>
   );
 }
 
-export default Contact;
+export default Services;

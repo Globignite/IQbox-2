@@ -1,16 +1,13 @@
-import Navbar from "../../Components/Navbar";
+import Navbar from "../../includes/Navbar";
+import Footer from "../../includes/Footer";
 import Banner from "./Banner";
 import AboutUsSection from "../../Components/AboutUsSection";
 import WhyChooseusSection from "../../Components/WhyChooseUsSection";
 import CtaSection from "../../Components/CtaSection";
 import CarouselSection from "../../Components/CarouselSection";
-import Footer from "../../Components/Footer";
 import FormSection from "../../Components/FormSection";
-import OurServicesSection from "../../Components/OurServicesSection";
-import OurTeams from "../../Components/OurTeams";
 import PartnersSection from "../../Components/PartnersSection";
-import PricingPlanSection from "../../Components/PricingPlanSection";
-import WhoWeAre from "../../Components/WhoWeAre";
+
 
 function About() {
   return (
@@ -30,10 +27,6 @@ function About() {
       <WhyChooseusSection />
       <PartnersSection />
       <CtaSection />
-      {/* <OurServicesSection /> */}
-      {/* <WhoWeAre /> */}
-      {/* <PricingPlanSection /> */}
-      {/* <OurTeams /> */}
       <CarouselSection />
       <FormSection />
       <Footer />

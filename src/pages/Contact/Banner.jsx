@@ -1,23 +1,23 @@
 function Banner() {
   return (
-    <div class="home-banner-section overflow-hidden position-relative sub-banner-section">
-      <div class="banner-container-box">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="sub-banner-outer">
+    <div className="home-banner-section overflow-hidden position-relative sub-banner-section">
+      <div className="banner-container-box">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="sub-banner-outer">
                 <h1>Contact Us</h1>
                 <p>
-                  "Get in touch with IQBOX for tailored security and technology
-                  solutions. We’re here to help you securely advance!"
+                  Get in touch with IQBOX for tailored security and technology
+                  solutions. We’re here to help you securely advance!
                 </p>
-                <div class="banner-btn discover-btn-banner">
-                  <div class="btn-inner">
+                <div className="banner-btn discover-btn-banner">
+                  <div className="btn-inner">
                     Home{" "}
-                    <span class="arrow-angles">
-                      <i class="fa fa-angles-right"></i>
+                    <span className="arrow-angles">
+                      <i className="fa fa-angles-right"></i>
                     </span>
-                    <span class="about-margin">Contact Us</span>
+                    <span className="about-margin">Contact Us</span>
                   </div>
                 </div>
               </div>

@@ -5,7 +5,7 @@ function Footer() {
         <div className="row">
           <div className="col-lg-4 col-md-4 col-sm-6">
             <div className="footer-content1">
-              <a href="index.html" className="text-decoration-none">
+              <a href="./" className="text-decoration-none">
                 <figure>
                   <img
                     src="./assets/images/logo.png"
@@ -38,28 +38,12 @@ function Footer() {
           </div>
           <div className="col-lg-2 col-md-2 col-sm-12 d-lg-block d-none">
             <h5 className="footer-link footer-next-list footer-next-list-about">
-              About Us
+              Important Links
             </h5>
             <ul className="useful-footer">
               <li>
                 <a
-                  href="services.html"
-                  className="text-decoration-none footer-link-p"
-                >
-                  Services
-                </a>
-              </li>
-              <li>
-                <a
-                  href="pricing.html"
-                  className="text-decoration-none footer-link-p"
-                >
-                  Pricing
-                </a>
-              </li>
-              <li>
-                <a
-                  href="about.html"
+                  href="./about"
                   className="text-decoration-none footer-link-p"
                 >
                   About Us
@@ -67,7 +51,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="our-team.html"
+                  href="./ourteam"
                   className="text-decoration-none footer-link-p"
                 >
                   Our Teams
@@ -75,7 +59,15 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="./contact.html"
+                  href="./services"
+                  className="text-decoration-none footer-link-p"
+                >
+                  Services
+                </a>
+              </li>
+              <li>
+                <a
+                  href="./contact"
                   className="text-decoration-none footer-link-p"
                 >
                   Contact us

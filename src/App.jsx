@@ -7,6 +7,7 @@ import { useEffect } from "react";
 
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
+import Services from "./pages/Services/Services";
 import Contact from "./pages/Contact/Contact";
 // import NotFound from "./pages/NotFound";
 
@@ -26,6 +27,7 @@ function App() {
           {/* Define all your routes here */}
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           {/* <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} /> */}

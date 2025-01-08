@@ -177,6 +177,9 @@ a {
   position: relative;
   overflow: hidden;
 }
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
 .home-header-section .banner-right-img {
   position: absolute;
   width: 1689px;
@@ -203,9 +206,9 @@ a {
   position: relative;
 }
 .home-header-section .main-header {
-  padding: 26px 150px 0 150px;
+  padding: 26px 150px 0 150px !important;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1550px) {
   .home-header-section .main-header {
     padding: 26px 50px 0 50px;
   }
@@ -1512,7 +1515,8 @@ a {
   margin-bottom: 17px;
 }
 .footer-section .useful-footer {
-  padding-left: 36px;
+  list-style-type: none;
+  padding-left: 17px;
 }
 .footer-section .footer-next-list-about {
   padding-left: 17px;

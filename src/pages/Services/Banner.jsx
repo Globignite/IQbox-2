@@ -6,10 +6,11 @@ function Banner() {
           <div className="row">
             <div className="col-lg-12">
               <div className="sub-banner-outer">
-                <h1>About Us</h1>
+                <h1>Services</h1>
                 <p>
-                  IQBOX delivers expert cybersecurity, AI, and custom tech
-                  solutions to help businesses grow securely in a digital world.
+                  IQBOX combines cybersecurity, Salesforce consulting, and IT
+                  transformation to safeguard data, enhance customer engagement,
+                  and optimize business operations.
                 </p>
                 <div className="banner-btn discover-btn-banner">
                   <div className="btn-inner">
@@ -17,7 +18,7 @@ function Banner() {
                     <span className="arrow-angles">
                       <i className="fa fa-angles-right"></i>
                     </span>
-                    <span className="about-margin">About Us</span>
+                    <span className="about-margin">Services</span>
                   </div>
                 </div>
               </div>
