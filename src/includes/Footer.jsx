@@ -5,7 +5,7 @@ function Footer() {
         <div className="row">
           <div className="col-lg-4 col-md-4 col-sm-6">
             <div className="footer-content1">
-              <a href="index.html" className="text-decoration-none">
+              <a href="./" className="text-decoration-none">
                 <figure>
                   <img
                     src="./assets/images/logo.png"
@@ -38,28 +38,12 @@ function Footer() {
           </div>
           <div className="col-lg-2 col-md-2 col-sm-12 d-lg-block d-none">
             <h5 className="footer-link footer-next-list footer-next-list-about">
-              About Us
+              Important Links
             </h5>
             <ul className="useful-footer">
               <li>
                 <a
-                  href="services.html"
-                  className="text-decoration-none footer-link-p"
-                >
-                  Services
-                </a>
-              </li>
-              <li>
-                <a
-                  href="pricing.html"
-                  className="text-decoration-none footer-link-p"
-                >
-                  Pricing
-                </a>
-              </li>
-              <li>
-                <a
-                  href="about.html"
+                  href="./about"
                   className="text-decoration-none footer-link-p"
                 >
                   About Us
@@ -67,15 +51,23 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="our-team.html"
+                  href="./services"
                   className="text-decoration-none footer-link-p"
                 >
-                  Our Teams
+                  Services
                 </a>
               </li>
               <li>
                 <a
-                  href="./contact.html"
+                  href="./blog"
+                  className="text-decoration-none footer-link-p"
+                >
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a
+                  href="./contact"
                   className="text-decoration-none footer-link-p"
                 >
                   Contact us
@@ -90,15 +82,15 @@ function Footer() {
             <div className="footer-list footer-link contact-list">
               <div className="icon-list-box1">
                 <ul className="list-unstyled contact-us-ul">
-                  {/* <li className="list-item">
+                  <li className="list-item">
                     <a
-                      href="tel:+4733378901"
+                      href="tel:+61422199496"
                       className="text-decoration-none footer-link-auto"
                     >
-                      +61 3 8376 6284
+                      +61 4 2219 9496
                     </a>
                     <i className="fa fa-phone fa-icon footer-location3" />
-                  </li> */}
+                  </li>
                   <li className="list-item">
                     <a
                       href="mailto:info@iqbox.com"
@@ -127,9 +119,9 @@ function Footer() {
               <div className="icon-list-box1">
                 <div className="col-inner">
                   <input
-                    type="tel"
+                    type="email"
                     name="email"
-                    className="form-control input-fill"
+                    className="form-control input-fill bg-white"
                     placeholder="Email Address:"
                   />
                 </div>

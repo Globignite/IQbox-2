@@ -1,14 +1,15 @@
 import Navbar from "../../includes/Navbar";
 import Footer from "../../includes/Footer";
-import Hero from "./Hero";
+import Banner from "./Banner";
 import AboutUsSection from "../../Components/AboutUsSection";
+import WhyChooseusSection from "../../Components/WhyChooseusSection";
+import CtaSection from "../../Components/CtaSection";
 import CarouselSection from "../../Components/CarouselSection";
 import FormSection from "../../Components/FormSection";
-import OurServicesSection from "../../Components/OurServicesSection";
 import PartnersSection from "../../Components/PartnersSection";
 
 
-function Home() {
+function About() {
   return (
     <>
       <div className="home-header-section">
@@ -20,11 +21,12 @@ function Home() {
           />
         </figure>
         <Navbar />
-        <Hero />
+        <Banner />
       </div>
-      <OurServicesSection />
       <AboutUsSection />
+      <WhyChooseusSection />
       <PartnersSection />
+      <CtaSection />
       <CarouselSection />
       <FormSection />
       <Footer />
@@ -32,4 +34,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;

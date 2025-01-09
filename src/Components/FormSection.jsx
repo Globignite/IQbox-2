@@ -18,8 +18,8 @@ function FormSection() {
               className="text-center aos-init aos-animate"
               data-aos="fade-left"
             >
-              "We’re ready to help you secure, scale, and transform your
-              business. Connect with our team today."
+              We’re ready to help you secure, scale, and transform your
+              business. Connect with our team today.
             </h2>
           </div>
         </div>

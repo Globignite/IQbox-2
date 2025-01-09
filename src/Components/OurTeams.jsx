@@ -1,5 +1,3 @@
-
- 
 function OurTeams() {
   return (
     <section className="our-teams-section overflow-hidden position-relative">

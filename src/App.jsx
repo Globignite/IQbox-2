@@ -6,8 +6,10 @@ import AOS from "aos";
 import { useEffect } from "react";
 
 import Home from "./pages/Home/Home";
-// import About from "./pages/About";
-// import Contact from "./pages/Contact";
+import About from "./pages/About/About";
+import Services from "./pages/Services/Services";
+import Blog from "./pages/Blog/Blog";
+import Contact from "./pages/Contact/Contact";
 // import NotFound from "./pages/NotFound";
 
 function App() {
@@ -25,6 +27,10 @@ function App() {
         <Routes>
           {/* Define all your routes here */}
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
           {/* <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} /> */}
 

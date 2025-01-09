@@ -177,6 +177,9 @@ a {
   position: relative;
   overflow: hidden;
 }
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
 .home-header-section .banner-right-img {
   position: absolute;
   width: 1689px;
@@ -203,9 +206,9 @@ a {
   position: relative;
 }
 .home-header-section .main-header {
-  padding: 26px 150px 0 150px;
+  padding: 26px 150px 0 150px !important;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1550px) {
   .home-header-section .main-header {
     padding: 26px 50px 0 50px;
   }
@@ -882,7 +885,7 @@ a {
 }
 .who-we-are-section .section-2 .section2-heading {
   font-size: 22px;
-  line-height: 24px;
+  line-height: 26px;
   font-weight: 600;
   color: var(--e-global-color-secondary);
   text-transform: none;
@@ -1512,7 +1515,8 @@ a {
   margin-bottom: 17px;
 }
 .footer-section .useful-footer {
-  padding-left: 36px;
+  list-style-type: none;
+  padding-left: 17px;
 }
 .footer-section .footer-next-list-about {
   padding-left: 17px;
@@ -1669,6 +1673,13 @@ a {
   color: var(--e-global-color-secondary);
   margin-bottom: 20px;
 }
+
+@media  screen and (max-width: 1550px) {
+  .home-header-section .sub-banner-section p {
+  padding: 0 24% !important;
+  }  
+}
+
 .home-header-section .sub-banner-section p {
   font-size: 22px;
   font-weight: 400;
@@ -1677,7 +1688,6 @@ a {
   margin-bottom: 33px;
   color: var(--e-global-color-text);
   text-align: center;
-  padding: 0 35%;
 }
 .home-header-section .sub-banner-section .banner-btn {
   text-align: center;
@@ -1978,7 +1988,7 @@ a {
   position: relative;
 }
 .help-section .help-section-content:before {
-  background: url(../images//help-section-img3.png);
+  background: url(/public/assets/images/help-section-img3.png);
   content: "";
   width: 1110px;
   height: 324px;
