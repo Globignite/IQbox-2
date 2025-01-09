@@ -75,10 +75,7 @@ function AboutUsSection() {
                   </span>
                 </li>
               </ul>
-              <ul
-                className="list-unstyled mt-3 left-section-margin-bottom"
-                data-aos="fade-up-left"
-              >
+              <ul className="list-unstyled mt-3 left-section-margin-bottom" data-aos="fade-up-left">
                 <li className="d-inline-block mb-lg-0 mb-3 mr-lg-1">
                   <i className="fa-solid fa-check ml-0 last-li-form-section" />
                   <span className="d-inline-block email-span text-decoration-none list-span">
@@ -95,6 +92,12 @@ function AboutUsSection() {
                   <i className="fa-solid fa-check ml-0 last-li-form-section" />
                   <span className="d-inline-block email-span text-decoration-none list-span">
                     Upgrading Current <br /> Equipment/Infrastructure
+                  </span>
+                </li>
+                <li className="d-inline-block mb-lg-0 mb-3 mr-lg-1">
+                  <i className="fa-solid fa-check ml-0 last-li-form-section" />
+                  <span className="d-inline-block email-span text-decoration-none list-span">
+                    Upgrading Current Equipment/Infrastructure
                   </span>
                 </li>
                 <li className="d-inline-block user-li">
@@ -122,6 +125,7 @@ function AboutUsSection() {
                   </span>
                 </li>
               </ul>
+            
               <div className="banner-btn discover-btn-banner">
                 <a href="./services" className="text-decoration-none">
                   Get Started
@@ -132,6 +136,7 @@ function AboutUsSection() {
         </div>
       </div>
     </section>
+
   );
 }
 
