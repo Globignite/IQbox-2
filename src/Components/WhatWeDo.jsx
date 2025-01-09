@@ -23,7 +23,7 @@ function WhatWeDo() {
             </h2>
             <p className="aboutus-p">
               Qugiat nulla pariatur excepteur sint occaecat cupidatat no
-              proident, sunt in culpa rui officia deserunt.{'{'}" "{'}'}
+              proident, sunt in culpa rui officia deserunt.
             </p>
             <div className="section2-row1">
               <div className="row">
