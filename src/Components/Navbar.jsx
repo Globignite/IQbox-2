@@ -8,11 +8,11 @@ const Navbar = () => {
         <div className="container-fluid">
           <nav className="navbar navbar-expand-lg navbar-light p-0">
             {/* Logo */}
-            <Link className="navbar-brand pt-0" to="/">
+            <Link className="navbar-brand mr-0 pt-0" to="/">
               <img
-                src="./assets/images/whiz-cyber-logo.png"
+                src="./assets/images/logo.png"
                 alt="Logo"
-                className="img-fluid diverge-logo"
+                className="img-fluid diverge-logo w-50"
               />
             </Link>
 
@@ -37,7 +37,7 @@ const Navbar = () => {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav">
-                <li className="nav-item active">
+                <li className="nav-item active ml-0">
                   <Link
                     className="nav-link text-decoration-none navbar-text-color home-margin-top"
                     to="/"

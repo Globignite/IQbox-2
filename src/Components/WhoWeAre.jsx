@@ -18,9 +18,10 @@ function WhoWeAre() {
                 We Spend 30,000 Hours Per Year to Virus Threats
               </h2>
               <p className="aboutus-p">
-                Fugiat nulla pariatur excepteur sint occaecat cupidatat non
-                proident, sunt in culpa rui officia deserunt mollit anim id est
-                laborum incidunt ut labore et dolore magnam.
+                IQBOX is a trusted technology consulting company delivering
+                Cybersecurity, Salesforce solutions, and IT Consulting services.
+                We serve businesses, governments, and institutions worldwide,
+                helping them protect, optimize, and scale operations.
               </p>
               <div className="row">
                 <div className="col-lg-4 col-md-4 col-sm-4">

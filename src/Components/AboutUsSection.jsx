@@ -1,5 +1,3 @@
-
-
 function AboutUsSection() {
   return (
     <section className="about-us-section overflow-hidden position-relative">
@@ -37,10 +35,15 @@ function AboutUsSection() {
                 24/7 Cyber Security Operation Center
               </h2>
               <p className="aboutus-p" data-aos="fade-up-right">
-                Duis aute irure dolor in reprehenderit in voluptate esse cillu
-                dolore eu fugiat nulla pariatur excepteur sint occaecat cupia at
-                non proident, sunt in culpa rui officia deserunt mollit ani mid
-                est laborum incidunt aut labore magnam.
+                IQBOX is a Cyber Security, Perimeter Security, Forensics, Deep
+                connect, Machine Learning & Technology consultancy provider
+                along with being technical owner of customized security and AI
+                based products. Information Security Consultancy company that
+                focuses on solving IT Security issues. It is trusted standard
+                for companies to protect their Products, Brand & Confidential
+                information from various types of Cyber Attacks. The company
+                serves IT Security Consultancy Services to Businesses,
+                Governments and Institutions over the Globe.
               </p>
               <ul
                 className="list-unstyled list-margin-bottom"
@@ -49,25 +52,25 @@ function AboutUsSection() {
                 <li className="d-inline-block mb-lg-0 mb-3">
                   <i className="fa-solid fa-check ml-0" />
                   <span className="d-inline-block email-span text-decoration-none list-span">
-                    Malware Detection Removal
+                    Wireless Security
                   </span>
                 </li>
-                <li className="d-inline-block cloud-security-li">
+                <li className="d-inline-block">
                   <i className="fa-solid fa-check margin-left-checkk" />
                   <span className="d-inline-block user-span text-decoration-none list-span">
-                    Cloud Security
+                    Detecting Security Threats
                   </span>
                 </li>
                 <li className="d-inline-block mb-lg-0 mb-3">
                   <i className="fa-solid fa-check ml-0" />
                   <span className="d-inline-block email-span text-decoration-none list-span">
-                    Content Delivery Network
+                    Vulnerability Assessments & Penetration Testing
                   </span>
                 </li>
-                <li className="d-inline-block user-li threat-detection-li">
+                <li className="d-inline-block">
                   <i className="fa-solid fa-check margin-left-checkk" />
                   <span className="d-inline-block user-span text-decoration-none list-span">
-                    Cyber Security
+                    Malware and Virus Removal
                   </span>
                 </li>
               </ul>
@@ -75,28 +78,46 @@ function AboutUsSection() {
                 className="list-unstyled left-section-margin-bottom"
                 data-aos="fade-up-left"
               >
-                <li className="d-inline-block mb-lg-0 mb-3 mr-lg-1 smart-tools-li">
+                <li className="d-inline-block mb-lg-0 mb-3 mr-lg-1">
                   <i className="fa-solid fa-check ml-0 last-li-form-section" />
                   <span className="d-inline-block email-span text-decoration-none list-span">
-                    Security Management
+                    Patching the Vulnerabilities
                   </span>
                 </li>
-                <li className="d-inline-block user-li cyber-security-li">
+                <li className="d-inline-block user-li">
                   <i className="fa-solid fa-check margin-left-checkk" />
                   <span className="d-inline-block user-span text-decoration-none list-span">
-                    Identifying Threats
+                    Investigation of Cyber Crimes
                   </span>
                 </li>
-                <li className="d-inline-block mb-lg-0 mb-3 mr-lg-1 smart-tools-li">
+                <li className="d-inline-block mb-lg-0 mb-3 mr-lg-1">
                   <i className="fa-solid fa-check ml-0 last-li-form-section" />
                   <span className="d-inline-block email-span text-decoration-none list-span">
-                    SIEM Threat Detection
+                    Upgrading Current Equipment/Infrastructure
                   </span>
                 </li>
-                <li className="d-inline-block user-li server-security-li">
+                <li className="d-inline-block user-li">
                   <i className="fa-solid fa-check margin-left-checkk" />
                   <span className="d-inline-block user-span text-decoration-none list-span">
-                    Server Security
+                    Building a Security Infrastructure
+                  </span>
+                </li>
+                <li className="d-inline-block user-li">
+                  <i className="fa-solid fa-check margin-left-checkk" />
+                  <span className="d-inline-block user-span text-decoration-none list-span">
+                    Social Networking and Prevention
+                  </span>
+                </li>
+                <li className="d-inline-block user-li">
+                  <i className="fa-solid fa-check margin-left-checkk" />
+                  <span className="d-inline-block user-span text-decoration-none list-span">
+                    Deploying Information Security Policies and Plans
+                  </span>
+                </li>
+                <li className="d-inline-block user-li">
+                  <i className="fa-solid fa-check margin-left-checkk" />
+                  <span className="d-inline-block user-span text-decoration-none list-span">
+                    Verification of Backup Software and Recovery
                   </span>
                 </li>
               </ul>
