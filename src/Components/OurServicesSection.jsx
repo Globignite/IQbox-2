@@ -60,6 +60,54 @@ function OurServices() {
                 </div>
               </div>
             </div>
+            <div className="item">
+              <div className="services-content">
+                <div className="icons-rounded-box">
+                  <figure className="mb-0">
+                    <img src="./assets/images/services-img4.png" alt />
+                  </figure>
+                </div>
+                <div className="services-box">
+                  <h5>Information Security Consultancy</h5>
+                  <p className="security-services-p">
+                    Information Security Consultancy company that focuses on
+                    solving IT Security issues.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="item">
+              <div className="services-content">
+                <div className="icons-rounded-box">
+                  <figure className="mb-0">
+                    <img src="./assets/images/services-img5.png" alt />
+                  </figure>
+                </div>
+                <div className="services-box">
+                  <h5>Cyber Intelligence Services</h5>
+                  <p className="security-services-p">
+                    Secure your business with Cyber Intelligence Services. Stay
+                    ahead of evolving threats.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="item">
+              <div className="services-content">
+                <div className="icons-rounded-box">
+                  <figure className="mb-0">
+                    <img src="./assets/images/services-img6.png" alt />
+                  </figure>
+                </div>
+                <div className="services-box">
+                  <h5>Social Engineering Services</h5>
+                  <p className="security-services-p">
+                    Guard your business with Social Engineering Services. Defend
+                    against deception and manipulation.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

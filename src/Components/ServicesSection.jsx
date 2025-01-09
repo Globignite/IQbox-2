@@ -1,0 +1,114 @@
+function ServicesSection() {
+  return (
+    <section className="our-services-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <h6>Our Services</h6>
+            <h2 className="text-center">Cyber Security Solutions</h2>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-4 col-md-6 col-sm-6 mb-md-4 mb-sm-4 mb-0">
+            <div className="services-content services-page-content">
+              <div className="icons-rounded-box">
+                <figure className="mb-0">
+                  <img src="./assets/images/services-img1.png" alt />
+                </figure>
+              </div>
+              <div className="services-box">
+                <h5>Cybersecurity Solutions</h5>
+                <p className="security-services-p">
+                  Cybersecurity Solutions to safeguard your critical systems.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-6">
+            <div className="services-content services-page-content">
+              <div className="icons-rounded-box">
+                <figure className="mb-0 icon-color">
+                  <img src="./assets/images/services-img2.png" alt />
+                </figure>
+              </div>
+              <div className="services-box">
+                <h5>Salesforce Consulting</h5>
+                <p className="security-services-p">
+                  Salesforce Consulting for smarter, customer-centric growth.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-6 mb-sm-4 mb-0">
+            <div className="services-content services-page-content">
+              <div className="icons-rounded-box">
+                <figure className="mb-0">
+                  <img src="./assets/images/services-img3.png" alt />
+                </figure>
+              </div>
+              <div className="services-box">
+                <h5>IT Services & Consulting</h5>
+                <p className="security-services-p">
+                  IT Services & Consulting to streamline and optimize your IT
+                  infrastructure.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-4 col-md-6 col-sm-6 mb-md-4 mb-sm-4 mb-0">
+            <div className="services-content services-page-content">
+              <div className="icons-rounded-box">
+                <figure className="mb-0">
+                  <img src="./assets/images/services-img4.png" alt />
+                </figure>
+              </div>
+              <div className="services-box">
+                <h5>Information Security Consultancy</h5>
+                <p className="security-services-p">
+                  Information Security Consultancy company that focuses on
+                  solving IT Security issues.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-6">
+            <div className="services-content services-page-content">
+              <div className="icons-rounded-box">
+                <figure className="mb-0 icon-color">
+                  <img src="./assets/images/services-img5.png" alt />
+                </figure>
+              </div>
+              <div className="services-box">
+                <h5>Cyber Intelligence Services</h5>
+                <p className="security-services-p">
+                  Secure your business with Cyber Intelligence Services. Stay
+                  ahead of evolving threats.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-6">
+            <div className="services-content services-page-content">
+              <div className="icons-rounded-box">
+                <figure className="mb-0">
+                  <img src="./assets/images/services-img6.png" alt />
+                </figure>
+              </div>
+              <div className="services-box">
+                <h5>Social Engineering Services</h5>
+                <p className="security-services-p">
+                  Guard your business with Social Engineering Services. Defend
+                  against deception and manipulation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default ServicesSection;

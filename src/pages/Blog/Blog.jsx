@@ -1,12 +1,9 @@
 import Navbar from "../../includes/Navbar";
 import Footer from "../../includes/Footer";
 import Banner from "./Banner";
-import ServicesSection from "../../Components/ServicesSection";
-import WhatWeDo from "../../Components/WhatWeDo";
-import CarouselSection from "../../Components/CarouselSection";
-import FormSection from "../../Components/FormSection";
+import BlogPostSection from "../../Components/BlogPostSection";
 
-function Services() {
+function Blog() {
   return (
     <>
       <div className="home-header-section">
@@ -20,13 +17,10 @@ function Services() {
         <Navbar />
         <Banner />
       </div>
-      <ServicesSection />
-      <WhatWeDo />
-      <CarouselSection />
-      <FormSection />
+      <BlogPostSection />
       <Footer />
     </>
   );
 }
 
-export default Services;
+export default Blog;

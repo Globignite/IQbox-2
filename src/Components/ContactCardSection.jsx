@@ -11,8 +11,8 @@ function ContactCardSection() {
                 </figure>
               </div>
               <h5>Phone:</h5>
-              <a href="" className="text-decoration-none">
-                <p className="phone-p">+61 0X0 X0X 0X0X</p>
+              <a href="tel:+61422199496" className="text-decoration-none">
+                <p className="phone-p">+61 4 2219 9496</p>
               </a>
             </div>
           </div>

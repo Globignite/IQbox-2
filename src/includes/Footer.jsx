@@ -51,18 +51,18 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="./ourteam"
-                  className="text-decoration-none footer-link-p"
-                >
-                  Our Teams
-                </a>
-              </li>
-              <li>
-                <a
                   href="./services"
                   className="text-decoration-none footer-link-p"
                 >
                   Services
+                </a>
+              </li>
+              <li>
+                <a
+                  href="./blog"
+                  className="text-decoration-none footer-link-p"
+                >
+                  Blog
                 </a>
               </li>
               <li>
@@ -82,15 +82,15 @@ function Footer() {
             <div className="footer-list footer-link contact-list">
               <div className="icon-list-box1">
                 <ul className="list-unstyled contact-us-ul">
-                  {/* <li className="list-item">
+                  <li className="list-item">
                     <a
-                      href="tel:+4733378901"
+                      href="tel:+61422199496"
                       className="text-decoration-none footer-link-auto"
                     >
-                      +61 3 8376 6284
+                      +61 4 2219 9496
                     </a>
                     <i className="fa fa-phone fa-icon footer-location3" />
-                  </li> */}
+                  </li>
                   <li className="list-item">
                     <a
                       href="mailto:info@iqbox.com"
@@ -119,9 +119,9 @@ function Footer() {
               <div className="icon-list-box1">
                 <div className="col-inner">
                   <input
-                    type="tel"
+                    type="email"
                     name="email"
-                    className="form-control input-fill"
+                    className="form-control input-fill bg-white"
                     placeholder="Email Address:"
                   />
                 </div>
